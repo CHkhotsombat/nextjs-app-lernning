@@ -6,6 +6,6 @@ function Review() {
   return (
     <h1>Product detail {productId}, Review id : {reviewId}</h1>
   )
- }
+}
 
- export default Review
+export default Review

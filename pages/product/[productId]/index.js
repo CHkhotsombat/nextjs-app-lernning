@@ -6,6 +6,6 @@ function ProductDetail() {
   return (
     <h1>Product detail {productId}</h1>
   )
- }
+}
 
- export default ProductDetail
+export default ProductDetail
