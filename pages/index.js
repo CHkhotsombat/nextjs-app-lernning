@@ -7,6 +7,9 @@ function Home() {
     console.log('handle click!!!')
     router.push('/product')
   }
+  const onClickUserPage = () => {
+    router.push('/users')
+  }
   return (
     <div>
       <h1>Welcome to Home page !!!</h1>
@@ -16,6 +19,10 @@ function Home() {
       <br/>
       <button onClick={handleClick}>
         Place order
+      </button>
+      <br/>
+      <button onClick={onClickUserPage}>
+        Go to User List
       </button>
     </div>
   )
